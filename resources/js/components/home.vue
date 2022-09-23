@@ -1,4 +1,5 @@
 <template >
+  
     
  <!--Slider section-->
 <div class="container-fluid">
@@ -7,20 +8,8 @@
           <div class="bd-example">
              <div id="carouselExampleCaptions" class="carousel slide home-slider-wrap" data-ride="carousel">
                 <div class="carousel-inner">
-                   <div class="carousel-item active first-slider-carousel" data-interval="18920">
-                      <img src="images/banner/home-slider-1.jpg" alt="...">
-                      <div class="carousel-caption wish-logo slider-custom-caption">
-                         <h2 class="animate__animated animate__fadeInUp heading-h2-gray slider-heading txt-white">
-                            Fine, Exquisitely Faceted Gems
-                         </h2>
-                         <a href="#" target="_blank"><img src="/images/banner/gem-slider-1.png" alt=""
-                            class="slider-rise-logo animate__animated animate__fadeInUp"></a>
-                         <p class="animate__animated animate__fadeInUp heading-h2-gray paraf1 txt-white slider-paraf">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                         </p>
-                      </div>
-                   </div>
-                   <div class="carousel-item">
+                   
+                   <div class="carousel-item active first-slider-carouse" data-interval="18920">
                       <img src="images/banner/home-slider-2.jpg" class="d-block w-100" alt="...">
                       <div class="carousel-caption wish-logo slider-custom-caption">
                          <h2 class="animate__animated animate__fadeInUp heading-h2-gray slider-heading txt-white">
@@ -33,7 +22,7 @@
                          </p>
                       </div>
                    </div>
-                   <div class="carousel-item">
+                   <div class="carousel-item ">
                       <img src="images/banner/home-slider-3.jpg" class="d-block w-100" alt="...">
                       <div class="carousel-caption wish-logo slider-custom-caption">
                          <h2 class="animate__animated animate__fadeInUp heading-h2-gray slider-heading txt-white">
@@ -501,3 +490,16 @@
     
     
 </template>
+
+<script>
+  
+
+export default {
+
+  data () {
+    
+  },
+  
+ 
+}
+</script>

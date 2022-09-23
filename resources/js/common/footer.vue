@@ -98,3 +98,14 @@
    
 </template>
 
+<style>
+  .footer-left-colum-wrap {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .footer-right-side {
+    display: flex;
+    justify-content: flex-end;
+}
+</style>
+
