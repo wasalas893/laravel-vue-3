@@ -37,10 +37,13 @@ const routes = [
  
 const router = VueRouter.createRouter({
     history: VueRouter.createWebHistory(),
+    linkActiveClass: "active",
+    linkExactActiveClass: 'exact-active-link',
     routes,
   });
 
 const app = createApp(App)
+
 
 // app.use(VueContentPlaceholders)
 
