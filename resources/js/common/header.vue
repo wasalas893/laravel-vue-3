@@ -59,5 +59,18 @@
         color: red !important;
         
       }
+      .nav-item {
+        padding: 6px !important;
+      }
+
+      .nav-item a {
+     font-size: 26px !important;
+    line-height: 28px !important;
+    font-weight: normal !important;
+    font-family: "EB Garamond", serif !important;
+    letter-spacing: 0.06px;
+    opacity: 1;
+     color:#292929;
+    }
 
 </style>
