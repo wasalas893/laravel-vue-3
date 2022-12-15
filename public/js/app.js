@@ -19948,7 +19948,7 @@ __webpack_require__.r(__webpack_exports__);
   },
   setup: function setup() {
     return {
-      modules: [swiper__WEBPACK_IMPORTED_MODULE_4__.Navigation, swiper__WEBPACK_IMPORTED_MODULE_4__.Pagination]
+      modules: [swiper__WEBPACK_IMPORTED_MODULE_4__.Navigation, swiper__WEBPACK_IMPORTED_MODULE_4__.Pagination, swiper__WEBPACK_IMPORTED_MODULE_4__.Autoplay]
     };
   }
 });
@@ -20032,23 +20032,20 @@ var _hoisted_4 = {
 var _hoisted_5 = {
   "class": "nav-item"
 };
-
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Explore");
-
+var _hoisted_6 = {
+  "class": "nav-item"
+};
 var _hoisted_7 = {
   "class": "nav-item"
 };
-
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Company");
-
-var _hoisted_9 = {
+var _hoisted_8 = {
   "class": "nav navbar-nav text-nowrap flex-row mx-md-auto order-1 order-md-2 mobile-toggler-ul"
 };
-var _hoisted_10 = {
+var _hoisted_9 = {
   "class": "nav-item nav-not-fixed"
 };
 
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   style: {
     "width": "180px"
   },
@@ -20059,36 +20056,24 @@ var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_12 = {
+var _hoisted_11 = {
   "class": "ml-auto navbar-collapse collapse nav-content order-3 order-md-3 desktop-right-navbar"
 };
-var _hoisted_13 = {
+var _hoisted_12 = {
   "class": "ml-auto nav navbar-nav"
+};
+var _hoisted_13 = {
+  "class": "nav-item"
 };
 var _hoisted_14 = {
   "class": "nav-item"
 };
-
-var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Reviews");
-
+var _hoisted_15 = {
+  "class": "nav-item"
+};
 var _hoisted_16 = {
   "class": "nav-item"
 };
-
-var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Journal");
-
-var _hoisted_18 = {
-  "class": "nav-item"
-};
-
-var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("FAQ");
-
-var _hoisted_20 = {
-  "class": "nav-item"
-};
-
-var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Contact");
-
 function render(_ctx, _cache) {
   var _component_router_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("router-link");
 
@@ -20097,67 +20082,77 @@ function render(_ctx, _cache) {
     "class": "nav-link"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_6];
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Explore")];
+    }),
+    _: 1
+    /* STABLE */
+
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
+    "class": "nav-link",
+    to: "/company"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Company")];
     }),
     _: 1
     /* STABLE */
 
   })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
     "class": "nav-link",
-    to: "/company"
+    to: "/gems"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_8];
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Gems")];
     }),
     _: 1
     /* STABLE */
 
-  })])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
+  })])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
     "class": "nav-link",
     to: "/"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_11];
+      return [_hoisted_10];
     }),
     _: 1
     /* STABLE */
 
-  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
     "class": "nav-link",
     to: "/review"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_15];
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Reviews")];
+    }),
+    _: 1
+    /* STABLE */
+
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
+    "class": "nav-link",
+    to: "/journal"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Journal")];
+    }),
+    _: 1
+    /* STABLE */
+
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
+    "class": "nav-link",
+    to: "/faq"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("FAQ")];
     }),
     _: 1
     /* STABLE */
 
   })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
     "class": "nav-link",
-    to: "/journal"
-  }, {
-    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_17];
-    }),
-    _: 1
-    /* STABLE */
-
-  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
-    "class": "nav-link",
-    to: "/faq"
-  }, {
-    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_19];
-    }),
-    _: 1
-    /* STABLE */
-
-  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
-    "class": "nav-link",
     to: "/contact"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_21];
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Contact")];
     }),
     _: 1
     /* STABLE */
@@ -20298,6 +20293,148 @@ var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
+var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"home-two\"><div class=\"container-fluid\"><div class=\"row\"><div class=\"col-md-12 home-two-text\"><div class=\"section-body-text\"><div class=\"header-text\"><h2>Our Stones</h2></div><div class=\"header-description\"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></div></div></div></div></div></div>", 1);
+
+var _hoisted_12 = {
+  "class": "home-three-main-section"
+};
+var _hoisted_13 = {
+  "class": "container-fluid"
+};
+var _hoisted_14 = {
+  "class": "row"
+};
+var _hoisted_15 = {
+  "class": "slider-section-box"
+};
+var _hoisted_16 = {
+  "class": "col-md-12"
+};
+var _hoisted_17 = {
+  "class": "row"
+};
+var _hoisted_18 = {
+  "class": "col-md-4 p-0"
+};
+
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  "class": "slider-box",
+  src: "/images/stones/1728068422540019.jpg",
+  alt: "First slide"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  "class": "slider-box",
+  src: "/images/stones/1728169734362779.jpg",
+  alt: "First slide"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_21 = {
+  "class": "col-md-4 p-0"
+};
+
+var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  "class": "slider-box",
+  src: "/images/stones/1732360140751262.jpg",
+  alt: "First slide"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  "class": "slider-box",
+  src: "/images/stones/1733792940262558.jpg",
+  alt: "First slide"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_24 = {
+  "class": "col-md-4 p-0"
+};
+
+var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  "class": "slider-box",
+  src: "/images/stones/1733796926504780.jpg",
+  alt: "First slide"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  "class": "slider-box",
+  src: "/images/stones/1733797921481280.jpg",
+  alt: "First slide"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_27 = {
+  "class": "col-md-4 p-0"
+};
+
+var _hoisted_28 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  "class": "slider-box",
+  src: "/images/stones/1733797921481280.jpg",
+  alt: "First slide"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_29 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  "class": "slider-box",
+  src: "/images/stones/1733796926504780.jpg",
+  alt: "First slide"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_30 = {
+  "class": "col-md-4 p-0"
+};
+
+var _hoisted_31 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  "class": "slider-box",
+  src: "/images/stones/1733799917172629.jpg",
+  alt: "First slide"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_32 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  "class": "slider-box",
+  src: "/images/stones/sapphire-cate-img4.jpg",
+  alt: "First slide"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_33 = {
+  "class": "col-md-4 p-0"
+};
+
+var _hoisted_34 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  "class": "slider-box",
+  src: "/images/stones/sapphire-cate-img4.jpg",
+  alt: "First slide"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_35 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  "class": "slider-box",
+  src: "/images/stones/1733799917172629.jpg",
+  alt: "First slide"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_36 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"home-five-section\"><div class=\"container-fluid\"><div class=\"row\"><div class=\"col-md-12 p-0 gems-section-image\"><img src=\"/images/Home/home-img-1.jpg\" alt=\"\"></div><div class=\"col-md-12\"><div class=\"image-text-gems\"><h2>Lorem Ipsum is simply dummy text of the printing and</h2></div></div></div></div></div><div class=\"home-six-section\"><div class=\"container-fluid\"><div class=\"row\"><div class=\"col-md-12\"><div class=\"row\"><div class=\"col-md-6\"><div class=\"six-header-text\"><h2>typesetting industry.</h2></div><div class=\"six-header-description\"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, unknown printer took a galley of type and scrambled it to make a type. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><p> Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, unknown printer took a galley of type and scrambled it to make a type.</p></div></div><div class=\"col-md-6\"><img src=\"\" alt=\"\"></div></div></div></div></div></div>", 2);
+
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_swiper_slide = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("swiper-slide");
 
@@ -20305,7 +20442,14 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("Slider section"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_swiper, {
     navigation: true,
-    pagination: true,
+    pagination: {
+      clickable: true
+    },
+    autoplay: {
+      "delay": 4000,
+      "disableOnInteraction": false
+    },
+    loop: true,
     modules: $setup.modules,
     "class": "mySwiper"
   }, {
@@ -20338,8 +20482,200 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   }, 8
   /* PROPS */
-  , ["modules"])])])])])], 2112
-  /* STABLE_FRAGMENT, DEV_ROOT_FRAGMENT */
+  , ["modules"])])])])]), _hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_swiper, {
+    navigation: true,
+    modules: $setup.modules,
+    loop: true,
+    autoplay: {
+      "delay": 4000,
+      "disableOnInteraction": false
+    },
+    "class": "mySwiper"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_swiper_slide, null, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_19];
+        }),
+        _: 1
+        /* STABLE */
+
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_swiper_slide, null, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_20];
+        }),
+        _: 1
+        /* STABLE */
+
+      })];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["modules"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_swiper, {
+    navigation: true,
+    loop: true,
+    autoplay: {
+      "delay": 4000,
+      "disableOnInteraction": false
+    },
+    modules: $setup.modules,
+    "class": "mySwiper"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_swiper_slide, null, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_22];
+        }),
+        _: 1
+        /* STABLE */
+
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_swiper_slide, null, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_23];
+        }),
+        _: 1
+        /* STABLE */
+
+      })];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["modules"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_swiper, {
+    navigation: true,
+    loop: true,
+    autoplay: {
+      "delay": 4000,
+      "disableOnInteraction": false
+    },
+    modules: $setup.modules,
+    "class": "mySwiper"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_swiper_slide, null, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_25];
+        }),
+        _: 1
+        /* STABLE */
+
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_swiper_slide, null, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_26];
+        }),
+        _: 1
+        /* STABLE */
+
+      })];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["modules"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_27, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_swiper, {
+    navigation: true,
+    loop: true,
+    autoplay: {
+      "delay": 4000,
+      "disableOnInteraction": false
+    },
+    modules: $setup.modules,
+    "class": "mySwiper"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_swiper_slide, null, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_28];
+        }),
+        _: 1
+        /* STABLE */
+
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_swiper_slide, null, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_29];
+        }),
+        _: 1
+        /* STABLE */
+
+      })];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["modules"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_30, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_swiper, {
+    navigation: true,
+    loop: true,
+    autoplay: {
+      "delay": 4000,
+      "disableOnInteraction": false
+    },
+    modules: $setup.modules,
+    "class": "mySwiper"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_swiper_slide, null, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_31];
+        }),
+        _: 1
+        /* STABLE */
+
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_swiper_slide, null, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_32];
+        }),
+        _: 1
+        /* STABLE */
+
+      })];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["modules"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_33, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_swiper, {
+    navigation: true,
+    loop: true,
+    autoplay: {
+      "delay": 4000,
+      "disableOnInteraction": false
+    },
+    modules: $setup.modules,
+    "class": "mySwiper"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_swiper_slide, null, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_34];
+        }),
+        _: 1
+        /* STABLE */
+
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_swiper_slide, null, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_35];
+        }),
+        _: 1
+        /* STABLE */
+
+      })];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["modules"])])])])])])])]), _hoisted_36], 64
+  /* STABLE_FRAGMENT */
   );
 }
 
@@ -20634,7 +20970,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.footer-left-colum-wrap {\r\n    display: flex;\r\n    justify-content: flex-start;\n}\n.footer-right-side {\r\n    display: flex;\r\n    justify-content: flex-end;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.footer-left-colum-wrap {\n    display: flex;\n    justify-content: flex-start;\n}\n.footer-right-side {\n    display: flex;\n    justify-content: flex-end;\n}\n.footer-bottom-wrap {\n    background: #FAFAFA;\n    padding: 10px 0px 10px 0px;\n}\n.footer-left-colum-wrap span{\n    font-size: 14px !important;\n    line-height: 26px !important;\n    font-weight: normal !important;\n    font-family: \"EB Garamond\", serif !important;\n    letter-spacing: 0.06px;\n    opacity: 1;\n  color:#4A4A4A;\n}\n.footer-right-side span{\n    font-size: 14px !important;\n    line-height: 26px !important;\n    font-weight: normal !important;\n    font-family: \"EB Garamond\", serif !important;\n    letter-spacing: 0.06px;\n    opacity: 1;\n  color:#4A4A4A;\n}\n.list-inline.mobile-inlineto-block {\n    display: flex;\n    flex-direction: row;\n    justify-content: center;\n}\n.list-inline.mobile-inlineto-block a {\n    padding: 10px;\n    font-size: 16px !important;\n    line-height: 30px !important;\n    font-weight: normal !important;\n    font-family: \"EB Garamond\", serif !important;\n    letter-spacing: 0.05px;\n    opacity: 1;\n  color:#4A4A4A;\n}\n.list-inline.footer-logo-wrap {\n    display: flex;\n    justify-content: center;\n    padding-top: 30px;\n    padding-bottom: 30px;\n}\n.footer-bottom-description {\n    text-align: center;\n    display: flex;\n    justify-content: center;\n}\n.footer-bottom-description p {\n    font-size: 12px !important;\n    line-height: 26px !important;\n    font-weight: normal !important;\n    font-family: \"EB Garamond\", serif !important;\n    letter-spacing: 0.06px;\n    opacity: 1;\n    color: #4A4A4A;\n    width: 40%;\n}\n.footer-main-wrap {\n    padding-top: 50px;\n    padding-bottom: 50px;\n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -20658,7 +20994,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.nav-link.active {\r\n        color: red !important;\n}\nli.nav-item a {\r\n        font-size: 17px !important;\r\n    line-height: 28px !important;\r\n    font-weight: normal !important;\r\n    font-family: \"EB Garamond\", serif !important;\r\n    letter-spacing: 0.06px;\r\n    opacity: 1;\r\n  color:#292929;\n}\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.nav-link.active {\n        color: red !important;\n}\n.nav-item {\n        padding: 6px !important;\n}\n.nav-item a {\n     font-size: 20px !important;\n    line-height: 28px !important;\n    font-weight: normal !important;\n    font-family: \"EB Garamond\", serif !important;\n    letter-spacing: 0.06px;\n    opacity: 1;\n     color:#292929;\n}\n.main-nav {\n        box-shadow: 0 1px 4px #0000000f;\n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -20682,7 +21018,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.swiper {\n  width: 100%;\n  height: 100%;\n}\n.swiper-slide {\n  text-align: center;\n  font-size: 18px;\n  background: #fff;\n\n  /* Center slide text vertically */\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.swiper-slide img {\n  display: block;\n  width: 100%;\n  height: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n.inner-section-slider {\n    position: absolute;\n}\nimg.inner-gem-slider {\n    display: flex;\n    height: auto;\n    align-items: center;\n    padding: 0px 140px 0px 140px;\n}\nh2{\n    font-size: 44px !important;\n    line-height: 45px !important;\n    font-weight: normal !important;\n    font-family: \"EB Garamond\", serif !important;\n    letter-spacing: 0px;\n    color:#FFFFFF;\n    opacity: 1;\n}\np{\n    font-size: 17px !important;\n    line-height: 28px !important;\n    font-weight: normal !important;\n    font-family: \"EB Garamond\", serif !important;\n    letter-spacing: 0.06px;\n    opacity: 1;\n  color:#FFFFFF;\n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.swiper {\n  width: 100%;\n  height: 100%;\n}\n.swiper-slide {\n  text-align: center;\n  width: 100% !important;\n  font-size: 18px;\n  background: #fff;\n\n  /* Center slide text vertically */\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.swiper-slide img {\n  display: block;\n  width: 100%;\n  height: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n.inner-section-slider {\n    position: absolute;\n}\nimg.inner-gem-slider {\n    display: flex;\n    height: auto;\n    align-items: center;\n    padding: 0px 140px 0px 140px;\n}\n.home-slider-section h2{\n    font-size: 44px !important;\n    line-height: 45px !important;\n    font-weight: normal !important;\n    font-family: \"EB Garamond\", serif !important;\n    letter-spacing: 0px;\n    color:#FFFFFF;\n    opacity: 1;\n}\n.home-five-section {\n    padding-top: 80px;\n}\n.image-text-gems {\n\n    position: absolute;\n    bottom: 87%;\n    left: 20%;\n    width: 50%;\n}\n.six-header-text h2{\n    font-size: 60px !important;\n    line-height: 66px !important;\n    font-weight: normal !important;\n    font-family: \"EB Garamond\", serif !important;\n    letter-spacing: 0px;\n    color:#606060;\n    opacity: 1;\n}\n.image-text-gems h2{\n    font-size: 60px !important;\n    line-height: 66px !important;\n    font-weight: normal !important;\n    font-family: \"EB Garamond\", serif !important;\n    letter-spacing: 0px;\n    color:#FFFFFF;\n    opacity: 1;\n}\n.header-text h2{\n    font-size: 44px !important;\n    line-height: 45px !important;\n    font-weight: normal !important;\n    font-family: \"EB Garamond\", serif !important;\n    letter-spacing: 0px;\n    color:#606060;\n    opacity: 1;\n}\n.home-slider-section p{\n    font-size: 17px !important;\n    line-height: 28px !important;\n    font-weight: normal !important;\n    font-family: \"EB Garamond\", serif !important;\n    letter-spacing: 0.06px;\n    opacity: 1;\n  color:#FFFFFF;\n}\n.header-description p{\n    font-size: 17px !important;\n    line-height: 28px !important;\n    font-weight: normal !important;\n    font-family: \"EB Garamond\", serif !important;\n    letter-spacing: 0.06px;\n    opacity: 1;\n  color:#606060;\n}\n.home-two-text {\n    display: flex;\n    justify-content: center;\n    text-align: center;\n}\n.home-two {\n    padding-top: 80px;\n    padding-bottom: 80px;\n}\n.header-description {\n    padding-top: 20px;\n    padding-bottom: 20px;\n}\n.gems-section-image img{\n    width: 100%;\n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
